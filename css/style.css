@@ -5,12 +5,14 @@
     --primary-color-headlines: #d5bfdf;
     --primary-color-buttons: #fdfbd2;
     --primary-color-background: #fcf7f7;
+    --primary-color-text-dark: #7a7777;
 }
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -44,17 +46,17 @@ body {
 }
 
 .line {
-    height: 4px;
+    height: 5px;
     width: 39px;
     background-color: var(--primary-color-headlines);
     border-radius: 10px;
-    margin: 8px 0;
+    margin: 7px 0;
 }
 
 .logo-span {
     display: inline-block;
     margin: 25px;
-    font-family: 'Roboto', system-ui;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-style: normal;
     font-size: 32px;
@@ -72,4 +74,100 @@ body {
     border-radius: 50%;
     object-fit: cover;
     margin: 25px;
+}
+
+hr {
+    width: 151px;
+    height: 12px;
+    background-color: var(--primary-color-headlines);
+    border-radius: 7px;
+    border: none;
+}
+
+.headline h3 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: var(--primary-color-headlines);
+    margin: 0;
+}
+
+.frame {
+    width: 100%;
+    text-align: center;
+}
+
+.frame img {
+    display: inline-block;
+    width: 296px;
+    height: 165px;
+    object-fit: cover;
+    margin: 22px;
+}
+
+.my-clients {
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.card h4 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+.card span {
+    display: inline-block;
+    color: var(--primary-color-text-dark);
+    background-color: var(--primary-color-headlines);
+    opacity: 0.5;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    margin: 15px;
+}
+
+.contact {
+    width: 100%;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.contact button {
+    border: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    background-color: var(--primary-color-buttons);
+    padding: 15px 51px;
+    color: var(--primary-color-headlines);
+    margin: 32px;
+}
+
+.social-media {
+    width: 100%;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.social-media-icons ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media-icons ul li {
+    display: inline-block;
+    margin: 19px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 48px;
 }
