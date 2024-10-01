@@ -216,7 +216,7 @@ footer {
         display: block;
         font-size: 36px;
         width: 284px;
-        text-align: left;
+        text-align: start;
         margin-left: 24px;
         font-weight: 300;
     }
@@ -244,7 +244,7 @@ footer {
 
     .headline h3 {
         padding-left: 32px;
-        text-align: left;
+        text-align: start;
     }
 
     .gallery {
