@@ -172,6 +172,46 @@ footer {
     padding-top: 48px;
 }
 
+/*12. lesson*/
+.menu-list {
+    display: none;
+}
+
+/*12. lesson*/
+.profile-learn-more {
+    display: none;
+}
+
+/*12. lesson*/
+.my-works-intro {
+    display: none;
+}
+
+/*12. lesson*/
+.gallery {
+    display: none;
+}
+
+/*12. lesson*/
+.contact-form {
+    display: none;
+}
+
+/*12. lesson*/
+.contact-details {
+    display: none;
+}
+
+/*12. lesson*/
+.contact-intro {
+    display: none;
+}
+
+/*12. lesson*/
+#contact-me-headline {
+    display: none;
+}
+
 @media (min-width: 600px) and (max-width: 1024px) {
     .hamburger {
         display: none;
@@ -180,6 +220,15 @@ footer {
     .menu {
         grid-template-columns: 1fr 2fr;
         align-items: center;
+        /*12. lesson*/
+        box-sizing: border-box;
+        padding-right: 24px;
+        /*12. lesson*/
+    }
+
+    /*12. lesson*/
+    .menu-list {
+        display: block;
     }
 
     .menu-list ul {
@@ -193,7 +242,8 @@ footer {
 
     .menu-list ul li {
         display: inline-block;
-        margin-right: 14px;
+        /*12. lesson*/
+        margin-right: 8px;
     }
 
     .profile {
@@ -282,7 +332,14 @@ footer {
         display: none;
     }
 
+    /*12. lesson*/
+    #contact-me-headline {
+        display: block;
+    }
+
     .contact-intro {
+        /*12. lesson*/
+        display: block;
         width: 100%;
     }
 
@@ -293,6 +350,8 @@ footer {
     }
 
     .contact-form {
+        /*12. lesson*/
+        display: block;
         width: 100%;
         font-size: 20px;
     }
@@ -321,6 +380,8 @@ footer {
     }
 
     .contact-details {
+        /*12. lesson*/
+        display: block;
         width: 100%;
     }
 
@@ -352,11 +413,19 @@ footer {
         align-items: center;
     }
 
+    .menu-list {
+        /*12. lesson*/
+        display: block;
+        box-sizing: border-box;
+        padding: 16px;
+    }
+
     .menu-list ul {
         list-style: none;
         padding: 0;
         text-transform: uppercase;
-        font-size: 24px;
+        /*12. lesson*/
+        font-size: 36px;
         font-weight: 700;
         color: var(--primary-color-text-dark);
     }
@@ -504,6 +573,8 @@ footer {
     }
 
     .contact-form {
+        /*12. lesson*/
+        display: block;
         width: 100%;
         font-size: 20px;
         grid-column: 1/2;
@@ -539,7 +610,7 @@ footer {
         grid-row: 2/3;
         text-align: start;
         box-sizing: border-box;
-        padding: 32px;        
+        padding: 32px;
     }
 
     .social-media h3 {
@@ -547,7 +618,24 @@ footer {
         margin-left: 0;
     }
 
+    /*12. lesson*/
+    #contact-me-headline {
+        display: block;
+    }
+
+    /*12. lesson*/
+    .contact-intro {
+        display: block;
+        width: 923px;
+        text-align: start;
+        margin-left: 32px;        
+    }
+    
     .contact-details {
+        /*12. lesson*/
+        display: block;
+        font-size: 24px;
+        /*12. lesson*/
         text-align: start;
         grid-column: 2/3;
         grid-row: 1/2;
@@ -568,9 +656,9 @@ footer {
         list-style: none;
         padding: 0;
     }
-    
+
     .social-media-icons ul li {
         display: inline-block;
         margin: 0;
-    }    
+    }
 }
